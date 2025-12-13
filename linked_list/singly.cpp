@@ -84,6 +84,7 @@ void print(Node* &head){
         cout<<temp->data<<" ";
         temp= temp->next;
     }
+    cout<<endl;
 }
 int main(){
     Node* node1 = new Node(10);
