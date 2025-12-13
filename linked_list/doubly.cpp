@@ -69,6 +69,36 @@ void insertAtAnyPos(Node* &head,Node* &tail,int position,int d){
     NodeToInsert->prev= temp;
 }
 
+void deleteNode(int position, Node* &head){
+    if(position==1){
+        Node* temp = head;
+        temp->next->prev= NULL;
+        head = temp->next;
+
+        //memory free
+        temp->next = NULL;
+        temp->prev = NULL;
+        delete temp;
+    }else{
+        //any position
+        Node* curr = head;
+        Node* prev = NULL;
+        int count = 1;
+
+        while(count<position){
+            prev = curr;
+            curr = curr->next;
+            count++;
+        }
+        
+        prev->next = curr->next;
+        curr->next->prev = prev;
+
+        curr->next = NULL;
+        delete curr;
+    }
+}
+
 void print(Node* &head){
     Node* temp = head;
     while(temp!=NULL){
