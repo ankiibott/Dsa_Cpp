@@ -17,7 +17,7 @@ class Node{
             delete next;
             this->next = NULL;
         }
-        cout<<"Memory Free"<value<<endl;
+        cout<<"Memory Free"<<value<<endl;
     }
 };
 
