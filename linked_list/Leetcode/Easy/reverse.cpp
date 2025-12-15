@@ -13,6 +13,7 @@
  //206 - REVERSE LINKED LIST
 
 //note:- always saves the next element , if to do operation with the previous one 
+//logic:- InsertAthead for the newlist
 
 class Solution {
 public:
