@@ -8,6 +8,10 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+ //logic:- use three pointers prev->curr->next
+ //note :- for reversing use three pointers idea if needed
+ 
 class Solution {
 public:
  
