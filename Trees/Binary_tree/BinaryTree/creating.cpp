@@ -10,6 +10,19 @@ class Node{
     Node *rchild;
 };
 
+class Tree
+{
+public:
+    Node *root;
+    Tree(){root=NULL;}
+    void CreateTree();
+    void Preorder(Node *p);
+    void Postorder(Node *p);
+    void Inorder(Node *p);
+    void Levelorder(Node *p);
+    void Height(Node *root);
+};
+
 class Queue{
     private:
     int front;
@@ -21,8 +34,8 @@ class Queue{
     //constructor
     Queue(){front=rear=1;size=10;Q=new Node*[size];}
     Queue(int size){front=rear=1;this->size=size;Q= new Node*[this->size];}
-    void enqueue(int x);
-    int dequeue();
+    void enqueue(Node* x);
+    Node *dequeue();
     void Display();
 };
 
@@ -35,3 +48,23 @@ void Queue::enqueue (Node *x){
         Q[rear] = x;
     }
 }
+
+Node* Queue::dequeue(){
+    Node* x =NULL;
+    if(front==rear){
+        print("Queue is Empty\n");
+    }
+    else{
+        x = Q[front+1];
+        front++;
+    }
+    return x;
+}
+
+void Queue::Display(){
+    for(int i = front+1;i<=read;i++){
+        printf("%d",Q[i]);
+    }
+    printf("\n"); 
+}
+
