@@ -14,8 +14,6 @@ void InsertA(int A[], int n){
     A[i] = temp;
 }
  
- 
-// STL vector based
 void Insert(vector<int>& vec, int key){
     // Insert key at the end
     auto i = vec.size();
