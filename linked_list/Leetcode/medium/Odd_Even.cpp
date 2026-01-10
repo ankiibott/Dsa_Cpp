@@ -1,3 +1,6 @@
+//logic:- always take two pointers only and a temp to store if needed some connection
+//ps:- 328-ODD EVEN linked list
+
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
