@@ -9,7 +9,7 @@ public:
         ListNode *odd=head;
         ListNode *even=head->next;
         ListNode *temp=head->next;
-        while(odd->next && even->next){
+        while(odd->next && even->next){xs54 
             odd->next=even->next;
             even->next=odd->next->next;
             odd=odd->next;
@@ -18,4 +18,4 @@ public:
         odd->next=temp;
         return head;
     }
-};
+};                 
