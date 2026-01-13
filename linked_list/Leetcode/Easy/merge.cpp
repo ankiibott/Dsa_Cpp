@@ -1,5 +1,5 @@
 //initial   dummy node banaya (val =0) and tail ko last mai point kia dummy ke 
-//baki logic same
+
 
 class Solution {
 public:

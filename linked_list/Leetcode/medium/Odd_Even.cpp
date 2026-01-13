@@ -18,4 +18,4 @@ public:
         odd->next=temp;
         return head;
     }
-};                
+};                 
