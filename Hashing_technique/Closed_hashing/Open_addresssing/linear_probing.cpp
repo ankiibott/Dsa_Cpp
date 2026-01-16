@@ -14,7 +14,6 @@ void Print(T& vec, int n, string s){
     }
     cout << "]" << endl;
 }
- 
 int Hash(int key){
     return key % SIZE;
 }
