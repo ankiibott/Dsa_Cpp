@@ -9,8 +9,7 @@ int LCS(string A, string B) {
     int m = A.length();
     int n = B.length();
 
-    // Create a 2D array (table) of size (m+1) x (n+1)
-    // We initialize everything to 0 to handle the base cases automatically
+
     vector<vector<int>> L(m + 1, vector<int>(n + 1, 0));
 
     // Fill the table using the logic from your pseudocode
