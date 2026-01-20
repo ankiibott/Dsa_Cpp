@@ -1,4 +1,5 @@
-
+//logic :- get the length/k even or odd then s>0?1 else 0 for current_size
+//
 class Solution {
 public:
     vector<ListNode*> splitListToParts(ListNode* head, int k) {
