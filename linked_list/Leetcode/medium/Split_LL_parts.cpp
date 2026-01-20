@@ -1,5 +1,5 @@
 //logic :- get the length/k even or odd then s>0?1 else 0 for current_size
-//
+//ps:-725:-Split Linked List in Parts
 class Solution {
 public:
     vector<ListNode*> splitListToParts(ListNode* head, int k) {
