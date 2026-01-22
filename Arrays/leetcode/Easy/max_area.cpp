@@ -1,3 +1,11 @@
+/*logic :- 
+take maxdiag and currdiag similar with area as well :-
+now if currdiag>maxdiag then obv change max to curr
+if not or is equal then check for area and then update area 
+*/
+
+//ps:-3000. Maximum Area of Longest Diagonal Rectangle
+
 class Solution {
 public:
     int areaOfMaxDiagonal(vector<vector<int>>& dimensions) {
