@@ -1,3 +1,9 @@
+/*logic :- 
+performing sorting N times , as to traverse diagonals
+for i>=j calling non_inc then i< j calling non_dec*/
+
+//ps:- 2666. Diagonal Sort
+
 class Solution {
 public:
     vector<vector<int>> sortMatrix(vector<vector<int>>& grid) {
