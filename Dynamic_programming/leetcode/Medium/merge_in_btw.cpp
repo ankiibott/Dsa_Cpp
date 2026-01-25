@@ -1,3 +1,8 @@
+
+
+/*Logic:- make point start at a and end at b then simply perform ->next points to the list2 and tail of list2*/
+
+//ps:-1669. Merge In Between Linked Lists
 class Solution {
 public:
     ListNode* mergeInBetween(ListNode* list1, int a, int b, ListNode* list2) {
