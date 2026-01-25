@@ -3,7 +3,7 @@
 class Solution {
 public:
     vector<ListNode*> splitListToParts(ListNode* head, int k) {
-        int length = 0;
+        int length = 0;  
         ListNode* temp = head;
         while (temp != NULL) {
             length++;
