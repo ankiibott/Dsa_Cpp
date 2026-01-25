@@ -1,5 +1,5 @@
 //logic:- push the open bracket then for s[i] for closing if st.top() gives the same opening then true rest false;
-//ps:-20. Valid Parentheses
+//ps:-Valid Parentheses
 
 
 class Solution {
