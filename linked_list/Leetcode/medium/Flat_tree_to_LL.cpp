@@ -5,6 +5,7 @@ and then call the func and then just simpy perform asuming like an array
 and also left always null goes only right . for last ele both null (left&right)*/
 
 //ps:-114. Flatten Binary Tree to Linked List
+
 class Solution {
 public:
     void flatten(TreeNode* root) {
