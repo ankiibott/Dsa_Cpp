@@ -1,3 +1,10 @@
+//logic:- first while loop if spaces are there last also if not then move 
+//till theres no spaces(2nd while loop)
+//example:-s = "   fly me   to   the moon  "
+
+
+//ps:-58. Length of Last Word
+
 class Solution {
 public:
     int lengthOfLastWord(string s) {
