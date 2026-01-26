@@ -1,3 +1,7 @@
+//logic :- not an optimal soln but , it 
+// is said that majority ele lies at the middle of sorted array
+//ps:-169. Majority Element
+
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
