@@ -1,4 +1,5 @@
-
+//logic:- nums[i]!=val just store nums[i] in nums[k] and then k++
+//ps:-27. Remove Element
 
 class Solution {
 public:
