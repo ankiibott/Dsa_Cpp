@@ -61,7 +61,6 @@ int main() {
     int n = sizeof(A)/sizeof(A[0]);
     Print(A, n, " A");
  
-    // Hash Table
     int HT[10] = {0};
     for (int i=0; i<n; i++){
         Insert(HT, A[i]);
