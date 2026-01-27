@@ -1,7 +1,5 @@
 //logic :- we inc if same else dec 
 // if at any point count==0 then false 
-//ps:-383. Ransom Note 
-
 
 class Solution {
 public:
