@@ -23,7 +23,6 @@ void Levelorder(Node *p)
             enqueue(&q, p->lchild);        // Add left child to queue
         }
 
-        // Step 4: Check and process the right child
         if (p->rchild)
         {
             printf("%d ", p->rchild->data); // Print right child
