@@ -4,9 +4,9 @@
 
 void Levelorder(Node *p)
 {
-    Queue q; // Declare a Queue structure
+    Queue q; 
 
-    // Step 1: Print the root node and enqueue it
+    
     printf("%d ", p->data);
     enqueue(&q, p);
 
