@@ -13,7 +13,7 @@ void Levelorder(Node *p)
     // Step 2: While the queue is not empty, process nodes
     while (!isEmpty(q))
     {
-        // Remove the front node from the queue
+        
         p = dequeue(&q);
 
         // Step 3: Check and process the left child
