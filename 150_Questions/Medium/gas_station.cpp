@@ -1,3 +1,7 @@
+"If you fail to reach station i starting from start, then no station between start and i can
+ work either, so you can safely skip them all and reset your start to i + 1."
+
+//ps:-134. Gas Station 
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
