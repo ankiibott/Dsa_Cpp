@@ -1,3 +1,6 @@
+//Treat the first string as a master template and return immediately 
+//the moment you find a mismatch or exceed the length of any other string."
+//ps:-14. Longest Common Prefix
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
