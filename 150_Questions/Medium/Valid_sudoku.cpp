@@ -1,3 +1,7 @@
+//logic:-Use 3 boolean arrays to keep track of seen numbers
+//  in rows, columns, and 3x3 boxes.
+//ps:-36. Valid Sudoku
+
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
