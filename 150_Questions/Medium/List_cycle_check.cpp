@@ -1,3 +1,8 @@
+//logic:-Use two pointers, slow and fast. If there is a cycle, 
+// fast will eventually lap slow.
+//ps:-141. Linked List Cycle
+
+
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
