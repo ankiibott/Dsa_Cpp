@@ -1,3 +1,9 @@
+//logic:-Use a temporary matrix to
+//store the original values, then iterate through it to update the main matrix.
+//ps:-73. Set Matrix Zeroes
+
+
+
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
