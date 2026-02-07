@@ -1,3 +1,4 @@
+//ps:- 
 class Solution {
 public:
     int getNext(int n) {
