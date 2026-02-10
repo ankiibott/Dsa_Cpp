@@ -1,3 +1,6 @@
+//logic:-preorder
+//ps:-222. Count Complete Tree Nodes
+
 class Solution {
 public:
     int countNodes(TreeNode* root) {
