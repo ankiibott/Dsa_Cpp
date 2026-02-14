@@ -1,3 +1,6 @@
+
+//logic:- inc or dec func, call and then return or between them inc || dec
+//ps:-896. Monotonic Array
 class Solution {
 public:
     bool isMonotonic(vector<int>& nums) {
