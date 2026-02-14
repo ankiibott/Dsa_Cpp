@@ -1,3 +1,6 @@
+//logic:- even and odd separate and then nums.clear() and then push_back
+//ps:-905. Sort Array By Parity
+
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& nums) {
