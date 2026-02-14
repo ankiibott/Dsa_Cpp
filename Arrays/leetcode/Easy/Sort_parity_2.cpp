@@ -1,3 +1,8 @@
+//logic:- separate even and odd and then i is even , so push_back(even[i/2]) else
+//push_back(odd[i/2]) 
+//ps:-922. Sort Array By Parity II
+//note :- i/2 is used because we are pushing half of the elements 
+
 class Solution {
 public:
     vector<int> sortArrayByParityII(vector<int>& nums) {
