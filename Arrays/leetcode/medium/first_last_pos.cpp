@@ -1,3 +1,8 @@
+//logic:- peform binary search two times
+//reason :- if target found on mid , then check left and right side 
+// for first and last position
+//ps:-34. Find First and Last Position of Element in Sorted Array
+
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
