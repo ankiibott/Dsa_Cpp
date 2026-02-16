@@ -1,3 +1,11 @@
+// The unordered_set stores every unique character 
+// encountered in the current substring to provide a memory of 
+// what has been seen.
+// The if condition checks if the current character
+//  already exists in the set to immediately stop the loop upon finding a duplicate.
+//seen.end() means null.
+
+//ps:-3.Longest Substring Without Repeating Characters
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
