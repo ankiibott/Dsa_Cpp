@@ -1,4 +1,5 @@
-
+//logic:- not an optimal way of solving  it O(n^3)
+//ps:-5. Longest Palindromic Substring
 class Solution {
 public:
     bool palindrome(string &s, int start, int end) {
