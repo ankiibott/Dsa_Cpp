@@ -1,4 +1,5 @@
-
+//logic:- sort array then two pointers approach 
+//ps:-15. 3Sum
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
