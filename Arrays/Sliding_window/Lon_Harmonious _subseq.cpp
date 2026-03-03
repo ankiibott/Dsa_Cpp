@@ -11,7 +11,8 @@ public:
         int maxLen = 0;
         for (auto const& [num, freq] : counts) {
             if (counts.find(num + 1) != counts.end()) {
-                maxLen = max(maxLen, freq + counts[num + 1]);
+                int currlen = freq + counts[num + 1];
+                maxLen = max(maxLen, currlen);
             }
         }
 
