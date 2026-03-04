@@ -1,3 +1,7 @@
+//ps:-283. Move Zeroes
+//logic:- if 0 at prev then swap in rest cases just move prev++ and curr++ and in else case 
+// 0 val at both pointer then simply move curr++ until targets a int other than zero.
+
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
