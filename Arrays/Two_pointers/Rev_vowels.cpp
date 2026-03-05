@@ -1,3 +1,7 @@
+// Logic: Uses a two-pointer approach (start and end) 
+// to find and swap vowels from both ends of the string until the pointers meet.
+//ps:-345. Reverse Vowels of a String
+
 class Solution {
 public:
     string reverseVowels(string s) {
