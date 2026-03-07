@@ -1,4 +1,5 @@
-
+//logic:- bubble sort is not right way to use (not optimal with swap logic)
+//ps:-Sort List 148
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
