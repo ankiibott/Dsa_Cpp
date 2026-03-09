@@ -1,3 +1,7 @@
+//ps:-2487. Remove Nodes From Linked List
+
+// Logic: Uses a monotonic decreasing
+//  stack to remove all nodes that have a greater value to their right.
 class Solution {
 public:
     ListNode* removeNodes(ListNode* head) {
