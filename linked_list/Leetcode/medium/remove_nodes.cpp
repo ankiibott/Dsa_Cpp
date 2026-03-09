@@ -5,20 +5,20 @@
 class Solution {
 public:
     ListNode* removeNodes(ListNode* head) {
-        vector<ListNode*> nodes;
+        vector<ListNode*> stack;
         ListNode* curr = head;
 
         while (curr != nullptr) {
-            while (!nodes.empty() && nodes.back()->val < curr->val) {
-                nodes.pop_back();
+            while (!stack.empty() && stack.back()->val < curr->val) {
+                stack.pop_back();
             }
-            nodes.push_back(curr);
+            stack.push_back(curr);
             curr = curr->next;
         }
-        //re-link
+
         ListNode* dummy = new ListNode(0);
         curr = dummy;
-        for (ListNode* node : nodes) {
+        for (ListNode* node : stack) {
             curr->next = node;
             curr = curr->next;
         }
