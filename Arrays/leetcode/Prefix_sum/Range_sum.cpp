@@ -1,3 +1,6 @@
+// Implements a Range Sum Query using the Prefix
+//  Sum technique to answer sum queries in O(1) time after O(N) preprocessing.
+//ps:-303. Range Sum Query - Immutable
 class NumArray {
 private:
     vector<int> prefix;
