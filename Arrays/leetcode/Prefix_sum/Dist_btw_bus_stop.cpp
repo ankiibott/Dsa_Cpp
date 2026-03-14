@@ -1,3 +1,8 @@
+//ps:-1184. Distance Between Bus Stops
+// Computes prefix sums to find 
+// the clockwise distance and subtracts 
+// it from the total distance for the counter-clockwise path, 
+// returning the minimum of the two.
 class Solution {
 public:
     int distanceBetweenBusStops(vector<int>& distance, int start, int destination) {
