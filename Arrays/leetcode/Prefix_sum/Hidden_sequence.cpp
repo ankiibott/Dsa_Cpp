@@ -1,3 +1,9 @@
+
+
+// Uses prefix sum to find the relative min 
+// and max of the sequence to determine how 
+// many times its total range fits within the [lower, upper] bounds.
+//ps:-2145. Count the Hidden Sequences
 class Solution {
 public:
     int numberOfArrays(vector<int>& differences, int lower, int upper) {
