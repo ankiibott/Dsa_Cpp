@@ -1,3 +1,11 @@
+/*
+ * Logic: Flatten a multilevel doubly linked list.
+ * - Iterate nodes point-by-point.
+ * - When a child is found, disconnect the current 'next' branch and store it in a 'dummy' list.
+ * - Make the child the new 'next' node and clear the child pointer.
+ * - Upon reaching the end of the current branch, attach any stashed nodes from the 'dummy' list.
+ */
+//ps:-430. Flatten a Multilevel Doubly Linked List
 class Solution {
 public:
     Node* flatten(Node* head) {
