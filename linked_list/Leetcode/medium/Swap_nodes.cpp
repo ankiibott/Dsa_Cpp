@@ -1,3 +1,5 @@
+// Logic: Always for swapping nodes, a pointer to one node before is needed.
+//ps:-24. Swap Nodes in Pairs
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
