@@ -1,3 +1,6 @@
+// Doubles the linked list value in a single pass 
+// using a look-ahead carry technique (adds 1 if the next node's value is >= 5).
+//ps:-2816. Double a Number Represented as a Linked List
 class Solution {
 public:
     ListNode* doubleIt(ListNode* head) {
