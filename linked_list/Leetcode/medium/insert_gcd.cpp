@@ -1,3 +1,7 @@
+// Inserts nodes with the Greatest Common Divisor of 
+// adjacent node values between them (note: C++ has an inbuilt 
+// std::gcd() in <numeric>).
+//ps:-2807. Insert Greatest Common Divisors in Linked List
 class Solution {
 public:
     int gcd(int a, int b) {
