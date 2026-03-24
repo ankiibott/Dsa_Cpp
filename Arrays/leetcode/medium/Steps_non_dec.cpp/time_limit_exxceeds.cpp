@@ -1,3 +1,7 @@
+// Repeatedly iterates backward and removes elements
+//  strictly less than their immediate left neighbor until 
+// the array becomes entirely non-decreasing.
+//ps:-2258. Escape the Spreading Fire
 class Solution {
 public:
     int totalSteps(vector<int>& nums) {
