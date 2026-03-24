@@ -1,3 +1,6 @@
+// Traverses the matrix in a spiral order by 
+// maintaining 4 boundaries (top, bottom, left, right) and
+//  moving in sequence until all elements are visited.
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
