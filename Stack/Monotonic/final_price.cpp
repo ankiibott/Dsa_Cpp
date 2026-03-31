@@ -1,3 +1,7 @@
+// Uses a monotonic stack to find the 
+// next smaller or equal element (discount) for each 
+// price and updates the result.
+//ps:-1475. Final Prices With a Special Discount in a Shop
 class Solution {
 public:
     vector<int> finalPrices(vector<int>& prices) {
