@@ -1,3 +1,6 @@
+// Uses a monotonic stack to precompute the next greater 
+// element for nums2, then maps it for nums1.
+//ps:-496. Next Greater Element 
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
