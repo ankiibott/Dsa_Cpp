@@ -1,3 +1,6 @@
+// Uses a monotonic stack to compute the number of days until a 
+// warmer temperature is found for each day.
+//ps:-739:-Daily Temperatures
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
