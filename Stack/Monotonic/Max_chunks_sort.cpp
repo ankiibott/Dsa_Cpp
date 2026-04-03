@@ -1,3 +1,5 @@
+// Not always required to have stac
+// k empty at last; sometimes the stack size itself tells the answer.
 class Solution {
 public:
     int maxChunksToSorted(vector<int>& arr) {
