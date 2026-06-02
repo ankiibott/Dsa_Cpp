@@ -1,7 +1,7 @@
 #include <vector>
 using namespace std;
-//logic:-merge sort
-
+//logic :- merge sort the array and while merging count the number of elements in right subarray which are s
+// smaller than current element in left subarray and add that
 
 
 class Solution {
