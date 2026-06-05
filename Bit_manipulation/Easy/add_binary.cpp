@@ -1,5 +1,5 @@
-// logic :- Add two binary strings from right to left, tracking carry
-//  and building the result in reverse order.
+// logic :- Add two binary strings from right to left, tracking carry.
+// Convert char digits to ints with - '0' and convert sum bits back to char with + '0'.
 class Solution {
 public:
     string addBinary(string a, string b) {
