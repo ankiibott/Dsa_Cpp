@@ -1,3 +1,5 @@
+// logic :- Add two binary strings from right to left, tracking carry
+//  and building the result in reverse order.
 class Solution {
 public:
     string addBinary(string a, string b) {
