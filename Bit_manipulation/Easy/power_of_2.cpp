@@ -1,3 +1,4 @@
+// Check if n is a positive power of two by dividing by 2 until the value is no longer even.
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
