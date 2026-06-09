@@ -12,7 +12,6 @@ public:
             while (!st.empty() && temperatures[i] > temperatures[st.top()]) {
                 int indexToUpdate = st.top();
                 st.pop();
-                
                 int count = i - indexToUpdate; 
                 result[indexToUpdate] = count;
             }
