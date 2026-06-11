@@ -11,7 +11,6 @@ public:
 
         int left = 1;
         int right = k;
-
         if (k < 0) {
             left = n - abs(k);
             right = n - 1;
