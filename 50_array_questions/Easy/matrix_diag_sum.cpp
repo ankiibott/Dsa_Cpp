@@ -1,3 +1,8 @@
+
+// Add values from both diagonals, then subtract the middle element 
+// once if n is odd
+//1572. Matrix Diagonal Sum
+
 class Solution {
 public:
     int diagonalSum(vector<vector<int>>& mat) {
