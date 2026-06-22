@@ -1,3 +1,8 @@
+// logic :- Find the maximum wealth among all customers by
+//  summing their account balances
+
+//ps:- 1672. Richest Customer Wealth
+
 class Solution {
 public:
     int maximumWealth(vector<vector<int>>& accounts) {
