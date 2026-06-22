@@ -1,3 +1,7 @@
+// logic :- Count frequencies of lowercase letters, then return
+//  index of first with frequency 1.
+
+//ps:- 387. First Unique Character in a String
 class Solution {
 public:
     int firstUniqChar(string s) {
