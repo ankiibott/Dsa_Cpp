@@ -46,8 +46,7 @@ void NQueens(int k) {
 int main() {
     cout << "Enter the number of Queens: ";
     cin >> n;
-
-    // Start the recursion from the first row
+    
     NQueens(1);
 
     return 0;
