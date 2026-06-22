@@ -1,3 +1,7 @@
+// logic :- Use dynamic programming to count paths by summing 
+// ways from the top and left cells
+
+//ps :- 62. Unique Paths
 class Solution {
 public:
     int uniquePaths(int m, int n) {
